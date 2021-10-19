@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import MyPDF from "../assets/Kevin Chewning Resume.pdf"
 
 
 function Nav({projects}) {
@@ -46,7 +47,7 @@ function Nav({projects}) {
                             )}
                             
                         </div>
-                        <a href="assets/Kevin Chewning Resume.pdf" download="Kevin Chewning Resume" className="navbar-item">Resume</a>
+                        <a href={MyPDF} download="Kevin Chewning Resume.pdf" className="navbar-item">Resume</a>
                         <a href="#contact-me" className="navbar-item">Contact Me</a>
                     </div>
                 </div>
