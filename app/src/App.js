@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Tech Blog",
     divID: "tech-blog",
-    imageSource: "/images/tech-blog.png",
+    imageSource: "images/tech-blog.png",
     imageAlt: "Tech Blog Website",
     description: "Writing about tech can be just as important as making it. I wanted to build a CMS-style blog site where developers can publish their blog posts and comment on other posts as well. The app follows the MVC paradigm, utilizes Handlebars.js as the templating language, Sequelize as the ORM, and Express-Session to handle authentication.",
     repositoryURL: "https://github.com/kevinchewning/Tech-Blog",
@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Minesweeper",
     divID: "minesweeper",
-    imageSource: "/images/minesweeper.png",
+    imageSource: "images/minesweeper.png",
     imageAlt: "Minesweeper Website",
     description: "The ability to learn new libraries and collaborate with others are essential skills of any developer. For this project, we wanted to do something fun! I worked with some fellow developers to make a functioning Minesweeper game with the Phaser library, complete with user authentication and leaderboards.",
     repositoryURL: "https://github.com/kevinchewning/Minesweeper-P2",
@@ -45,7 +45,7 @@ const projects = [
   {
     title: "E-Commere Backend",
     divID: "e-commerce-backend",
-    imageSource: "/images/e-commerce-back-end.png",
+    imageSource: "images/e-commerce-back-end.png",
     imageAlt: "E-Commerce API",
     description: "E-Commerce is ther largest sector of the electronics industry, generating an estimated $29 trillion in 2019. Understanding the fundamental architecture of these platforms is incredibly beneficial to me as a developer so I built a back end for an e-commerce site with MySQL and the Sequelize package.",
     repositoryURL: "https://github.com/kevinchewning/E-Commerce-Back-End",
