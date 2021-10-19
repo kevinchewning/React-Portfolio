@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import MyPDF from "../assets/Kevin Chewning Resume.pdf"
+import MyPDF from "../assets/Kevin_Chewning_Resume.pdf"
 
 
 function Nav({projects}) {
