@@ -46,7 +46,7 @@ function Nav({projects}) {
                             )}
                             
                         </div>
-                        <a href="/assets/Kevin Chewning Resume.pdf" download="Kevin Chewning Resume" className="navbar-item">Resume</a>
+                        <a href="assets/Kevin Chewning Resume.pdf" download="Kevin Chewning Resume" className="navbar-item">Resume</a>
                         <a href="#contact-me" className="navbar-item">Contact Me</a>
                     </div>
                 </div>
