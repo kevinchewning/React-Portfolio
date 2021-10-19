@@ -9,7 +9,7 @@ $(function() {
 
 function techAnimation() {
     let randomIndex = Math.round(Math.random() * tech.length);
-    if(randomIndex === 11) {return;}
+    if(randomIndex === tech.length) {return;}
     let randomDelay = Math.random()*10;
     let techSpanElement = `<span class='tech'>${tech[randomIndex]}</span>`;
     // get window dimentions
