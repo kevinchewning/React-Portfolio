@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 
 function Nav({projects}) {
@@ -46,7 +47,8 @@ function Nav({projects}) {
                             )}
                             
                         </div>
-                        <a href="assets/Kevin_Chewning_Resume.pdf" download="Kevin Chewning Resume" className="navbar-item">Resume</a>
+                        <Link to="assets/Kevin_Chewning_Resume.pdf" target="_blank" className="navbar-item" download>Resume</Link>
+                        {/* <a href="assets/Kevin_Chewning_Resume.pdf" download="Kevin Chewning Resume" className="navbar-item">Resume</a> */}
                         <a href="#contact-me" className="navbar-item">Contact Me</a>
                     </div>
                 </div>

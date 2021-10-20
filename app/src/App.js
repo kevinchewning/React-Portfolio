@@ -4,6 +4,12 @@ import Nav from "./components/Nav";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 const projects = [
   {
@@ -63,7 +69,7 @@ const projects = [
 
 function App() {
   return (
-    <>
+    <Router>
       <Splash backgroundClass="computer-bg" title="Kevin Chewning" subtitle="Web Design & Development" link="header"/>
       <Nav projects={projects}/>
       <AboutMe/>
@@ -72,7 +78,7 @@ function App() {
         <Projects projects={projects}/>
       </div>
       <ContactMe/>
-    </>
+    </Router>
   );
 }
 
