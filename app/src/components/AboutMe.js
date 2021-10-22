@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMe() {
     return (
-        <div id="about-me" className="container is-fluid my-4 fullheight-mobile smt snap">
+        <div id="about-me" className="container is-fluid my-4 smt snap">
             <section className="columns">
                 <div className="column is-12">
                     <div className="box media is-flex-wrap-wrap">
