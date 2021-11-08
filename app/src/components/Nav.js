@@ -33,6 +33,7 @@ function Nav({projects}) {
 
                     <div className="navbar-end">
                         <a className="navbar-item" href="#about-me">About Me</a>
+                        <a className="navbar-item" href="#skills">Skills</a>
                         <div className="navbar-item has-dropdown is-hoverable" onClick={handleDropdown}>
                             <a className="navbar-link" href="#projects">
                                 Projects

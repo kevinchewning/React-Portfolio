@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
+import Skills from "./components/Skills";
 import { BrowserRouter as Router } from "react-router-dom";
 
 const projects = [
@@ -68,6 +69,7 @@ function App() {
       <Splash backgroundClass="computer-bg" title="Kevin Chewning" subtitle="Web Design & Development" link="header"/>
       <Nav projects={projects}/>
       <AboutMe/>
+      <Skills/>
       <Splash backgroundClass="code-bg" title="Projects" link={projects[0].divID}/>
       <div className="columns is-multi-line m-4 is-flex-wrap-wrap">
         <Projects projects={projects}/>
