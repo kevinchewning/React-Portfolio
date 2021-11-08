@@ -2,10 +2,10 @@ import React from 'react';
 
 function AboutMe() {
     return (
-        <div id="about-me" className="container is-fluid my-4 smt snap">
+        <div id="about-me" className="box m-4 smt snap">
             <section className="columns">
                 <div className="column is-12">
-                    <div className="box media is-flex-wrap-wrap">
+                    <div className=" media is-flex-wrap-wrap">
                         <div className="container is-flex  image-box">
                             <figure id="about-me-image" className="image is-128x128">
                                 <img src="/images/Self-Portrait.jpg" alt="Kevin Chewning Portrait"/>

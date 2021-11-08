@@ -34,22 +34,26 @@ export default function Skills () {
         } 
     }
 
+    const padding = {
+        padding: "0.5em"
+    }
+
     return (
-        <div className="box is-fluid m-4 smt" id="skills">
+        <div className="box m-4 smt" id="skills">
             <h2 className="title">Skills</h2>
             <div className="tabs is-boxed">
                 <ul>
                     <li className={languagesActive ? "is-active" : ""} onClick={languagesSelect}>
                         {/* <span className="icon is-small"><i className="fas fa-image" aria-hidden="true"></i></span> */}
-                        <a><span>Languages</span></a>
+                        <a style={padding}><span>Languages</span></a>
                     </li>
                     <li className={applicationsActive ? "is-active" : ""} onClick={applicationsSelect}>
                         {/* <span className="icon is-small"><i className="fas fa-image" aria-hidden="true"></i></span> */}
-                        <a><span>Applications</span></a>
+                        <a style={padding}><span>Applications</span></a>
                     </li>
                     <li className={toolsActive ? "is-active" : ""} onClick={toolsSelect}>
                         {/* <span className="icon is-small"><i className="fas fa-image" aria-hidden="true"></i></span> */}
-                        <a><span>Tools</span></a>
+                        <a style={padding}><span>Tools</span></a>
                     </li>
                 </ul>
             </div>

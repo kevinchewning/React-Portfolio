@@ -16,10 +16,10 @@ body {
     color: white;
     position: absolute;
     opacity: 0;
-    animation: fade 6s linear;
+    animation: fadeLeft 6s linear;
 }
 
-@keyframes fade {
+@keyframes fadeLeft {
     0% {
         opacity: 0;
     }
@@ -34,6 +34,20 @@ body {
 
     100% {
         left: -300px;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    
+    40% {
+        opacity: 1;
+    }
+    
+    80% {
+        opacity: 0;
     }
 }
 /* ----------------------------- */
@@ -114,5 +128,11 @@ body {
 
     #about-me-image {
         margin-left: 100px;
+    }
+}
+
+@media  screen and (min-width: 720px) {
+    .tech {
+        animation: fade 4.5s linear;
     }
 }
