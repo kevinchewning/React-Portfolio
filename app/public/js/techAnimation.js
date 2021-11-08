@@ -1,4 +1,4 @@
-var tech = ['JavaScript ES6+', 'CSS3', 'HTML5', 'SQL', 'NoSQL', 'ExpressJS', 'React', 'NodeJS', 'jQuery', 'Bootstrap', 'Bulma', 'GraphQL', 'REST'];
+var tech = ['JavaScript ES6+', 'CSS3', 'HTML5', 'SQL', 'NoSQL', 'ExpressJS', 'React', 'NodeJS', 'jQuery', 'Bootstrap', 'Bulma', 'GraphQL', 'REST', 'Redux'];
 
 /*global $*/
 /*eslint no-undef: "error"*/
