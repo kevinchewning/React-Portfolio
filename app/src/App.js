@@ -49,7 +49,7 @@ const projects = [
     divID: "e-commerce-backend",
     imageSource: "images/e-commerce-back-end.png",
     imageAlt: "E-Commerce API",
-    description: "E-Commerce is ther largest sector of the electronics industry, generating an estimated $29 trillion in 2019. Understanding the fundamental architecture of these platforms is incredibly beneficial to me as a developer so I built a back end for an e-commerce site with MySQL and the Sequelize package.",
+    description: "E-Commerce is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. Understanding the fundamental architecture of these platforms is incredibly beneficial to me as a developer so I built a back end for an e-commerce site with MySQL and the Sequelize package.",
     repositoryURL: "https://github.com/kevinchewning/E-Commerce-Back-End",
   },
   {
